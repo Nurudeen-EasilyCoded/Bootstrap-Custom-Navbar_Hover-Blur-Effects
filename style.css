@@ -1,0 +1,25 @@
+.navbar-brand {
+  font-size: 20px;
+  font-weight: 700 !important;
+  color: #fff !important;
+}
+
+ul li a {
+  font-size: 20px !important;
+  font-weight: 700 !important;
+  margin: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff !important;
+  transition:0.5s ease;
+}
+
+ul:hover li a {
+  color: #30edf4 !important;
+}
+
+ul:hover li a:not(:hover) {
+  color: #fff !important;
+  opacity: 0.3 !important;
+  filter: blur(1px) !important;
+}
